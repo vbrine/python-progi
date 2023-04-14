@@ -1,0 +1,1 @@
+név;sebzés;ár;pontosság;szórás;tipus;készítési hely
