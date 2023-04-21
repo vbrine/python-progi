@@ -1,1 +1,4 @@
-name;damge;price;accuracy;spread;type;place_of_origin
+name;damage;price;accuracy;fire_rate;type;place_of_origin
+Desert Eagle;53;700$;6.20;266.67;pisztoly;
+R8 Revolver;86;600$;8.23;120.00;pisztoly;
+Dual Berettas;38;300$;9.00;500.00;pisztoly;
