@@ -1,1 +1,1 @@
-név;sebzés;ár;pontosság;szórás;tipus;származási_hely
+name;damge;price;accuracy;spread;type;place_of_origin
