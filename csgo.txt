@@ -1,4 +1,11 @@
 name;damage;price;accuracy;fire_rate;type;place_of_origin
-Desert Eagle;53;700$;6.20;266.67;pisztoly;
-R8 Revolver;86;600$;8.23;120.00;pisztoly;
-Dual Berettas;38;300$;9.00;500.00;pisztoly;
+Desert Eagle;53;700;6.20;266.67;pisztoly;
+R8 Revolver;86;600;8.23;120.00;pisztoly;
+Dual Berettas;38;300;9.00;500.00;pisztoly;
+Five-SeveN;32;500;11.10;400.00;pisztoly;
+Glock-18;30;200;7.60;400.00;pisztoly;
+P2000;35;200;6.90;352.94;pisztoly;
+USP-S;35;200;6.40;352.94;pisztoly;
+P250;38;300;11.10;400.00;pisztoly;
+CZ75 Auto;31;500;13.43;600.00;pisztoly;
+Tec-9;33;500;6.90;500.00;pisztoly;
