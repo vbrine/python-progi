@@ -7,11 +7,15 @@ class CsGo:
       self.fr=float(oszlop[4])
       self.type=oszlop[5]
       # self.poo=oszlop[6]
-csgo=[]
+csgolista=[]
 fajl=open("csgo.txt","r",encoding="utf-8")
 fajl.readline()
 for sor in fajl:
     oszlop=sor.strip().split(";")
-    csgo.append(CsGo(oszlop[0],oszlop[1],oszlop[2],oszlop[3],oszlop[4],oszlop[5]))
-for i in csgo:
+    csgolista.append(CsGo(oszlop[0],oszlop[1],oszlop[2],oszlop[3],oszlop[4],oszlop[5]))
+for i in csgolista:
       print(f"{i.name} {i.damage} {i.price}$ {i.acc} {i.fr} {i.type}")
+csgosorted=sorted(csgolista,key=lambda k:k.damage)
+print("A tíz legjobb fegyver:")
+for i in range(10):
+    print(f"{csgosorted[i].name}")
