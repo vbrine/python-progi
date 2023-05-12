@@ -13,9 +13,12 @@ fajl.readline()
 for sor in fajl:
     oszlop=sor.strip().split(";")
     csgolista.append(CsGo(oszlop[0],oszlop[1],oszlop[2],oszlop[3],oszlop[4],oszlop[5],oszlop[6]))
+print("----------------------------------------")
 for i in csgolista:
       print(f"{i.name} {i.damage} {i.price}$ {i.acc} {i.fr} {i.type} {i.poo}")
+print("----------------------------------------")
 csgosorted=sorted(csgolista,key=lambda k:k.damage,reverse=True)
 print("A tíz legjobb fegyver (sebzés alapján):")
 for i in range(10):
     print(f"{csgosorted[i].name} {csgosorted[i].damage}dmg")
+print("----------------------------------------")
