@@ -16,6 +16,6 @@ for sor in fajl:
 for i in csgolista:
       print(f"{i.name} {i.damage} {i.price}$ {i.acc} {i.fr} {i.type} {i.poo}")
 csgosorted=sorted(csgolista,key=lambda k:k.damage,reverse=True)
-print("A tíz legjobb fegyver:")
+print("A tíz legjobb fegyver (sebzés alapján):")
 for i in range(10):
     print(f"{csgosorted[i].name} {csgosorted[i].damage}dmg")
